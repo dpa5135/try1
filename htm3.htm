@@ -1,0 +1,85 @@
+<html>
+ <head>
+    <style>
+    {
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns */
+    .column {
+    float: left;
+    }
+
+    /* Set width length for the left, right and middle columns */
+    .left {
+    width: 33%;
+    }
+
+    .middle {
+    width: 33%;
+    }
+    
+    .right {
+    width: 33%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    </style>
+ </head>
+ <body>
+    <div class="row">
+		<header>
+			<h1>Wait Time Prediction for O'Hare International Airport Taxis</h1>
+			<img src="https://www.flychicago.com/SiteCollectionImages/OHare/ToFrom/Taxis.jpg"> <br>
+		</header>
+        <div class="column left">
+            <h2>Weather Data</h2>
+            <p>Data..</p>						
+			<img src="https://logodix.com/logo/390970.png"> <br>
+		
+			<label>Temperaure</label>
+			<input type="text" name="number1" id="number1" placeholder="enter single digit number"> <br>
+			+<br>
+			<label>Precipitation</label>
+			<input type="text" name="number2" id="number2" placeholder="enter single digit number"><br>
+			<button type="button" class="btn btn-info" onclick="submit1()">submit</button><br><br>
+
+
+			
+			
+			
+        </div>
+        <div class="column middle">
+            <h2>Flight Data</h2>
+            <p>Data..</p>			
+			<img src="http://www.myiconfinder.com/uploads/iconsets/256-256-7b296b0173cecdd94ac66bb699bd0d71.png"> <br>		
+			<label>Delay</label>
+			<input type="text" name="number3" id="number3" placeholder="enter single digit number"> <br>
+			+<br>
+			<label>Arrival Time</label>
+			<input type="text" name="number4" id="number4" placeholder="enter single digit number"><br>
+			<button type="button" class="btn btn-info" onclick="submit1()">submit</button><br><br>
+			
+			
+			
+			
+        </div>
+        <div class="column right">
+            <h2>Passenger Data</h2>
+            <p>Data..</p>
+			
+			<img src="https://logodix.com/logo/1944948.png"> <br>		
+			<label>Number of Passengers</label>
+			<input type="text" name="number5" id="number5" placeholder="enter single digit number"> <br>
+			+<br>
+			<label>Numbers</label>
+			<input type="text" name="number6" id="number6" placeholder="enter single digit number"><br>
+			<button type="button" class="btn btn-info" onclick="submit1()">submit</button><br><br>
+			
+        </div>
+    </div>
+ </body>
+</html>
